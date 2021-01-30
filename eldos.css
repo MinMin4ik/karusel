@@ -1,0 +1,67 @@
+body{
+    background-image: url("img/fon.png");
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+img{
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
+    left: 0;
+    top: 0;
+}
+
+#hid{
+    width: 10%;
+    height: 75px;
+    margin: 100px auto 0 ;
+}
+div{
+    font-size: 25px;
+    display: block;
+    justify-content: space-between;
+    align-self: center;
+    margin: 10px;
+
+}
+
+span{
+    font-size: 25px;
+    float: left; width: 49%;
+    margin-left:15%;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    background-color: darkgray;
+    padding: 10px;
+    top: 0;
+    left: 0;
+
+}
+
+footer {
+    display: block;
+    justify-content: flex-end;
+    height:85px;
+    width: 100%;
+    background-color: darkgrey;
+    bottom: 0;
+    margin-left: 0;
+}
+
+#flex-box{
+    display: flex;
+    justify-content: flex-end;
+    color: maroon;
+    background-color: bisque;
+    font-size: 20px;
+}
+
+.row{
+    background-color: #6f42c1;
+}
